@@ -1,7 +1,7 @@
-import { Button } from "@/components/shadcnUi/button";
+import { Button } from '@/components/shadcnUi/button'
 
 const App = () => {
-  return <Button>Click me</Button>;
-};
+  return <Button>Click me</Button>
+}
 
-export default App;
+export default App

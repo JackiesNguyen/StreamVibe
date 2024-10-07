@@ -1,0 +1,5 @@
+# Mục đích là cấu hình các config đồng bộ các editor với nhau nếu dự án có nhiều người tham gia.
+
+[*]
+indent_size = 2
+indent_style = space
