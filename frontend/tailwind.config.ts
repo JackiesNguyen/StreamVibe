@@ -5,12 +5,34 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      screens: {
+        // => @media (min-width: 374px) { ... }
+        '2sm': '374px'
+      },
+      boxShadow: {
+        primary: 'var(--boxShadow-primary)'
+      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)'
       },
       colors: {
+        // Custom black colors
+        black: {
+          '06': 'var(--black-06)',
+          '08': 'var(--black-08)',
+          10: 'var(--black-10)',
+          12: 'var(--black-12)',
+          15: 'var(--black-15)',
+          20: 'var(--black-20)'
+        },
+        // Custom grey colors
+        grey: {
+          60: 'var(--grey-60)',
+          75: 'var(--grey-75)'
+        },
+
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
