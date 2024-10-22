@@ -32,6 +32,11 @@ export default {
           60: 'var(--grey-60)',
           75: 'var(--grey-75)'
         },
+        // Custom red colors
+
+        red: {
+          45: 'var(--red-45)'
+        },
 
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',

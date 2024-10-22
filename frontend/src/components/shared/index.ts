@@ -17,6 +17,10 @@ import {
   SheetDescription
 } from './CustomSheet'
 
+import { Button } from './CustomButton'
+import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from './CustomCarousel'
+import CardCarouselSection from './CardCarouselSection'
+
 export {
   WrapperContainer,
   Navbar,
@@ -24,6 +28,9 @@ export {
   Footer,
   Image,
   MobileNavbar,
+  Button,
+  CardCarouselSection,
+  // Sheet
   Sheet,
   SheetPortal,
   SheetOverlay,
@@ -33,5 +40,11 @@ export {
   SheetHeader,
   SheetFooter,
   SheetTitle,
-  SheetDescription
+  SheetDescription,
+  // Carousel
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselPrevious,
+  CarouselNext
 }

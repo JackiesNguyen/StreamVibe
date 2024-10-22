@@ -1,5 +1,13 @@
+import { Helmet } from 'react-helmet'
+import { Hero } from './_components'
+
 const HomePage = () => {
-  return <div>Day la home page</div>
+  return (
+    <>
+      <Helmet title='Home' />
+      <Hero />
+    </>
+  )
 }
 
 export default HomePage

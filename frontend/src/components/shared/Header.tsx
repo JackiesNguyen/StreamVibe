@@ -8,7 +8,7 @@ import MobileNavbar from './MobileNavbar'
 
 const Header = () => {
   return (
-    <header>
+    <header className='fixed top-0 left-0 right-0 w-full z-50'>
       <WrapperContainer className='flex items-center justify-between py-6 xl:py-[30px]'>
         <Link to={PATH.USER.HOME}>
           <Image
