@@ -28,6 +28,17 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem
+    
+    /* Red */
+    --red-45: #E50000;
+
+    /* Grey */
+    --grey-60: #999999;
+
+    /* Black */
+    --black-12: #1F1F1F;
+    --black-15: #262626;
+
   }
   .dark {
     --background: 222.2 84% 4.9%;
