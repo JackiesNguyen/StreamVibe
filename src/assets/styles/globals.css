@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -34,8 +36,12 @@
 
     /* Grey */
     --grey-60: #999999;
-
+    --grey-75: #BFBFBF;
+    
     /* Black */
+    --black-06: #0F0F0F;
+    --black-08: #141414;
+    --black-10: #1A1A1A;
     --black-12: #1F1F1F;
     --black-15: #262626;
 
@@ -71,7 +77,11 @@
   * {
     @apply border-border;
   }
+  html{
+    font-family: 'Manrope', sans-serif;
+  }
   body {
     @apply bg-background text-foreground;
+    
   }
 }

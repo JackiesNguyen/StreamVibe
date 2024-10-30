@@ -12,6 +12,23 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       colors: {
+        // Setup color variables
+        black: {
+          "06": "var(--black-06)",
+          "08": "var(--black-08)",
+          10: "var(--black-10)",
+          12: "var(--black-12)",
+          15: "var(--black-15)",
+        },
+        red: {
+          45: "var(--red-45)",
+        },
+        grey: {
+          60: "var(--grey-60)",
+          75: "var(--grey-75)",
+        },
+        //
+
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
@@ -52,6 +69,9 @@ export default {
           "4": "hsl(var(--chart-4))",
           "5": "hsl(var(--chart-5))",
         },
+      },
+      boxShadow: {
+        navbar: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
       },
     },
   },
