@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header>
+    <header className="fixed top-0 left-0 right-0 z-50 w-full">
       <WrapperContainer className="flex items-center justify-between py-[30px]">
         <Link to={PATH.ROOT}>
           <Image src={logoImg} alt="logoImg" className="w-[200px] h-[60px]" />

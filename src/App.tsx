@@ -5,7 +5,7 @@ import NextTopLoader from "nextjs-toploader";
 const App = () => {
   return (
     <>
-      <RouterProvider router={router} />;
+      <RouterProvider router={router} />
       <NextTopLoader color="#e50000" showSpinner={false} />
     </>
   );

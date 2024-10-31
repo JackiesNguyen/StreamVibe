@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -29,22 +29,21 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
-    --radius: 0.5rem
-    
+    --radius: 0.5rem;
+
     /* Red */
-    --red-45: #E50000;
+    --red-45: #e50000;
 
     /* Grey */
     --grey-60: #999999;
-    --grey-75: #BFBFBF;
-    
-    /* Black */
-    --black-06: #0F0F0F;
-    --black-08: #141414;
-    --black-10: #1A1A1A;
-    --black-12: #1F1F1F;
-    --black-15: #262626;
+    --grey-75: #bfbfbf;
 
+    /* Black */
+    --black-06: #0f0f0f;
+    --black-08: #141414;
+    --black-10: #1a1a1a;
+    --black-12: #1f1f1f;
+    --black-15: #262626;
   }
   .dark {
     --background: 222.2 84% 4.9%;
@@ -70,18 +69,17 @@
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%
+    --chart-5: 340 75% 55%;
   }
 }
 @layer base {
   * {
     @apply border-border;
   }
-  html{
-    font-family: 'Manrope', sans-serif;
+  html {
+    font-family: "Manrope", sans-serif;
   }
   body {
     @apply bg-background text-foreground;
-    
   }
 }
