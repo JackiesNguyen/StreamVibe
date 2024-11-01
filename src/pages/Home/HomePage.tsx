@@ -1,11 +1,11 @@
-import Hero from "./_components/Hero";
+import { Hero, Explore } from "./_components";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <Hero />
-      <div className="text-black-4500">CONC</div>
-    </div>
+      <Explore />
+    </>
   );
 };
 

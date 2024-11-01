@@ -4,7 +4,7 @@ import { Play } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="relative">
+    <div className="relative mb-36">
       <Image
         src="https://res.cloudinary.com/dulkwgwws/image/upload/v1716459234/images/curbhrxkjpspxppbqkjt.png"
         alt="hero"
